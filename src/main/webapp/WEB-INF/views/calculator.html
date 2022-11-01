@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<h1>Calculator</h1>
+
+<h3>Для использования калькулятора, дополните URL запрос: ?a=123&b=456&action=(любую операцию из списка ниже, без скобок)</h3>
+
+<p>multiplication = умножение</p>
+<p>addition = сложение</p>
+<p>subtraction = вычитание</p>
+<p>division = деление</p>
+
+<p>a: </p>
+<p th:text="${a}"></p>
+<p>b: </p>
+<p th:text="${b}"></p>
+<p>Результат: </p>
+<p th:text="${result}"></p>
+
+</body>
+</html>
